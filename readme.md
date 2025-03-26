@@ -3,7 +3,11 @@
 <h2>Prerequisites</h2>
 <ul>
   <li>Python 3.11+</li>
+  <li>OpenAI and Supabase API keys</li>
 </ul>
+
+<h2>Prerequisites</h2>
+This chatbot references .pdf files in the 'documents' folder and uses them as reference during response generation.
 
 <h2>Installation</h2>
 <h3>1. Clone the repo</h3>
