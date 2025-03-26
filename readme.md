@@ -1,4 +1,4 @@
-<h1>Agentic RAG (Retrieval Augmented Generation) with LangChain and Supabase</h1>
+<h1>Agentic RAG (Retrieval Augmented Generation) Chatbot Powered by LangChain and Supabase</h1>
 
 <h2>Prerequisites</h2>
 <ul>
@@ -6,8 +6,16 @@
   <li>OpenAI and Supabase API keys</li>
 </ul>
 
-<h2>Prerequisites</h2>
-This chatbot references .pdf files in the 'documents' folder and uses them as reference during response generation.
+<h2>Information</h2>  
+
+This chatbot references .pdf files placed in the 'documents' folder and uses them as reference during response generation.  
+
+
+The Agentic RAG Chatbgot is initially loaded with Python reference documentation and is able to answer detailed questions about Python.  
+
+This project is powered by OpenAI's GPT4-o for the LLM agent, and utilizes LangChain, Streamlit, and a Supabase vector database.  
+
+Feel free to add or change the .pdf documents in the "documents" folder to feed the LLM agent more reference material.
 
 <h2>Installation</h2>
 <h3>1. Clone the repo</h3>
@@ -26,7 +34,7 @@ python -m venv venv
 <h3>3. Activate the virtual environment</h3>
 
 ```
-Windows:venv\Scripts\Activate
+Windows: venv\Scripts\Activate
 Mac: source venv/bin/activate
 ```
 
@@ -38,7 +46,7 @@ pip install -r requirements.txt
 
 <h3>5. Source Supabase and OpenAI API Keys</h3>
 
-- Create a free account on Supabase: https://supabase.com/
+- Create a free account on Supabase for API key: https://supabase.com/
 - Create an API key for OpenAI: https://platform.openai.com/api-keys
 
 <h3>6. Execute SQL queries in Supabase</h3>
