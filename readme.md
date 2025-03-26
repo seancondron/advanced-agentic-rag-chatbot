@@ -10,7 +10,7 @@
 
 ```
 git clone https://github.com/seancondron/advanced-agentic-rag-chatbot.git
-cd Agentic RAG with LangChain
+cd Advanced Agentic RAG Chatbot
 ```
 
 <h3>2. Create a virtual environment</h3>
