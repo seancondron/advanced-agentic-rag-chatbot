@@ -1,4 +1,4 @@
-<h1>Agentic RAG (Retrieval Augmented Generation) Chatbot Powered by LangChain and Supabase</h1>
+<h1>Agentic RAG (Retrieval Augmented Generation) Chatbot Powered by GPT-4o, LangChain and Supabase</h1>
 
 <h2>Prerequisites</h2>
 <ul>
