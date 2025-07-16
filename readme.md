@@ -93,7 +93,12 @@ $$;
 
 <h3>7. Add API keys to .env file</h3>
 
-- Add the API keys for Supabase and OpenAI to the .env file
+- Add the API keys for Supabase and OpenAI to .env file with format:
+```
+OPENAI_API_KEY = ""
+SUPABASE_URL = ""
+SUPABASE_SERVICE_KEY = ""
+```
 
 
 <h3>8. Add your documents for LLM to reference</h3>
