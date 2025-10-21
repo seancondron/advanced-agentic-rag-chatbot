@@ -13,7 +13,7 @@ This chatbot references .pdf files placed in the 'documents' folder and uses the
 
 The Agentic RAG Chatbgot is initially loaded with Python reference documentation and is able to answer detailed questions about Python.  
 
-This project is powered by OpenAI's GPT4-o for the LLM agent, and utilizes LangChain, Streamlit, and a Supabase vector database.  
+This project is powered by OpenAI's GPT4-o for the LLM agent, utilizing LangChain, Streamlit, and a Supabase vector database (pgvector).  
 
 Feel free to add or change the .pdf documents in the "documents" folder to feed the LLM agent more reference material.
 
